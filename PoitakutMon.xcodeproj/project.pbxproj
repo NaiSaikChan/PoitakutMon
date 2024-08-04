@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		A2C84E0C2C5F2E980046265A /* PoitakutMonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E0B2C5F2E980046265A /* PoitakutMonApp.swift */; };
-		A2C84E0E2C5F2E980046265A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E0D2C5F2E980046265A /* ContentView.swift */; };
+		A2C84E0E2C5F2E980046265A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E0D2C5F2E980046265A /* RootView.swift */; };
 		A2C84E102C5F2E990046265A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E0F2C5F2E990046265A /* Assets.xcassets */; };
 		A2C84E132C5F2E990046265A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E122C5F2E990046265A /* Preview Assets.xcassets */; };
+		A2C84E1B2C5F38DA0046265A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E1A2C5F38DA0046265A /* CustomTabBar.swift */; };
+		A2C84E1E2C5F3C6F0046265A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E1D2C5F3C6F0046265A /* Helper.swift */; };
+		A2C84E242C5F3CD80046265A /* Mon3Anonta1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E1F2C5F3CD80046265A /* Mon3Anonta1.ttf */; };
+		A2C84E252C5F3CD80046265A /* MUA_Office_adobe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E202C5F3CD80046265A /* MUA_Office_adobe.ttf */; };
+		A2C84E262C5F3CD80046265A /* Pyidaungsu-1.7_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E212C5F3CD80046265A /* Pyidaungsu-1.7_Bold.ttf */; };
+		A2C84E272C5F3CD80046265A /* Pyidaungsu-1.7_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C84E222C5F3CD80046265A /* Pyidaungsu-1.7_Regular.ttf */; };
+		A2C84E2A2C5F53210046265A /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E292C5F53210046265A /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2C84E082C5F2E980046265A /* PoitakutMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoitakutMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C84E0B2C5F2E980046265A /* PoitakutMonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoitakutMonApp.swift; sourceTree = "<group>"; };
-		A2C84E0D2C5F2E980046265A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2C84E0D2C5F2E980046265A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A2C84E0F2C5F2E990046265A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C84E122C5F2E990046265A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2C84E1A2C5F38DA0046265A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A2C84E1D2C5F3C6F0046265A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A2C84E1F2C5F3CD80046265A /* Mon3Anonta1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mon3Anonta1.ttf; sourceTree = "<group>"; };
+		A2C84E202C5F3CD80046265A /* MUA_Office_adobe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MUA_Office_adobe.ttf; sourceTree = "<group>"; };
+		A2C84E212C5F3CD80046265A /* Pyidaungsu-1.7_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pyidaungsu-1.7_Bold.ttf"; sourceTree = "<group>"; };
+		A2C84E222C5F3CD80046265A /* Pyidaungsu-1.7_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pyidaungsu-1.7_Regular.ttf"; sourceTree = "<group>"; };
+		A2C84E282C5F3CF10046265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A2C84E292C5F53210046265A /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,11 @@
 		A2C84E0A2C5F2E980046265A /* PoitakutMon */ = {
 			isa = PBXGroup;
 			children = (
+				A2C84E282C5F3CF10046265A /* Info.plist */,
 				A2C84E0B2C5F2E980046265A /* PoitakutMonApp.swift */,
-				A2C84E0D2C5F2E980046265A /* ContentView.swift */,
+				A2C84E0D2C5F2E980046265A /* RootView.swift */,
+				A2C84E192C5F37C10046265A /* CustomTapBar */,
+				A2C84E1C2C5F3C4E0046265A /* Helpers */,
 				A2C84E0F2C5F2E990046265A /* Assets.xcassets */,
 				A2C84E112C5F2E990046265A /* Preview Content */,
 			);
@@ -65,6 +83,35 @@
 				A2C84E122C5F2E990046265A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2C84E192C5F37C10046265A /* CustomTapBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2C84E1A2C5F38DA0046265A /* CustomTabBar.swift */,
+				A2C84E292C5F53210046265A /* TabBarButton.swift */,
+			);
+			path = CustomTapBar;
+			sourceTree = "<group>";
+		};
+		A2C84E1C2C5F3C4E0046265A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2C84E232C5F3CD80046265A /* fonts */,
+				A2C84E1D2C5F3C6F0046265A /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A2C84E232C5F3CD80046265A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2C84E1F2C5F3CD80046265A /* Mon3Anonta1.ttf */,
+				A2C84E202C5F3CD80046265A /* MUA_Office_adobe.ttf */,
+				A2C84E212C5F3CD80046265A /* Pyidaungsu-1.7_Bold.ttf */,
+				A2C84E222C5F3CD80046265A /* Pyidaungsu-1.7_Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C84E252C5F3CD80046265A /* MUA_Office_adobe.ttf in Resources */,
 				A2C84E132C5F2E990046265A /* Preview Assets.xcassets in Resources */,
 				A2C84E102C5F2E990046265A /* Assets.xcassets in Resources */,
+				A2C84E262C5F3CD80046265A /* Pyidaungsu-1.7_Bold.ttf in Resources */,
+				A2C84E242C5F3CD80046265A /* Mon3Anonta1.ttf in Resources */,
+				A2C84E272C5F3CD80046265A /* Pyidaungsu-1.7_Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C84E0E2C5F2E980046265A /* ContentView.swift in Sources */,
+				A2C84E0E2C5F2E980046265A /* RootView.swift in Sources */,
+				A2C84E1B2C5F38DA0046265A /* CustomTabBar.swift in Sources */,
 				A2C84E0C2C5F2E980046265A /* PoitakutMonApp.swift in Sources */,
+				A2C84E2A2C5F53210046265A /* TabBarButton.swift in Sources */,
+				A2C84E1E2C5F3C6F0046265A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +329,7 @@
 				DEVELOPMENT_TEAM = 86SZC8RRQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoitakutMon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +359,7 @@
 				DEVELOPMENT_TEAM = 86SZC8RRQ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoitakutMon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
